@@ -1,0 +1,10 @@
+.titulo-filtro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.filtro {
+    color: azure;
+}

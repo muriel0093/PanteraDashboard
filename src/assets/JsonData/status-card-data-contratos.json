@@ -1,0 +1,20 @@
+[
+    {   
+        "cor": "#019707",
+        "icon": "bx bx-shopping-bag",
+        "count": "0",
+        "title": "Instalaçoes"
+    },
+    {
+        "cor": "#019707",
+        "icon": "bx bx-cart",
+        "count": "0",
+        "title": "Clientes ativos"
+    },
+    {
+        "cor": "#f02c35",
+        "icon": "bx bx-receipt",
+        "count": "0",
+        "title": "Cancelamentos"
+    }
+]

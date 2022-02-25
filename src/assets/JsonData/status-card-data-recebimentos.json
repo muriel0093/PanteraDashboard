@@ -1,0 +1,21 @@
+[
+   
+    {
+        "cor": "#019707",
+        "icon": "bx bx-dollar-circle",
+        "count": "0",
+        "title": "Recebimentos"
+    },
+    {
+        "cor": "#f02c35",
+        "icon": "bx bx-dollar-circle",
+        "count": "0",
+        "title": "Devedores"
+    },
+    {
+        "cor": "#f02c35",
+        "icon": "bx bx-dollar-circle",
+        "count": "0",
+        "title": "A receber"
+    }
+]

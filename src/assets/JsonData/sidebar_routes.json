@@ -1,0 +1,52 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/dashboard",
+        "icon": "bx bx-category-alt",
+        "options":[]
+    },
+    {
+        "display_name": "Customers",
+        "route": "/customers",
+        "icon": "bx bx-user-pin",
+        "options":[]
+    },
+    {
+        "display_name": "Clientes",
+        "route": "/clientes",
+        "icon": "bx bx-user-pin",
+        "options" : ["Clientes Pantera", "Contrato do Mes" ,"Clientes por Data de Instalacao", "Clientes por Cidade", "Clientes por Estado",
+            "Clientes em Carencia", "Historico de Clientes", "Clientes Cancelados","Historico do Cliente"]
+    },
+    {
+        "display_name": "Serial",
+        "route": "/serial",
+        "options":["Status Serial"],
+        "icon": "bx bxs-key"
+    },
+    {
+        "display_name": "Pagamentos",
+        "route": "/pagamentos",
+        "icon": "bx bx-money",
+        "options":["Pagamento por Mes","Pagamento por Dia","Pagamento do Mes de Referencia"]
+    },
+    {
+        "display_name": "Inadimplentes",
+        "route": "/inadimplentes",
+        "icon": "bx bxs-user-x",
+        "options":["Clientes em Debito","Debitos do Mes","Historico Clientes em Debito","Clientes Inadimplentes da Cidade","Não Pagou Próximo Mês"]
+    },
+    {
+        "display_name": "Modulos",
+        "route": "/modulos",
+        "icon": "bx bx-notepad",
+        "options":["Clientes por Modulo","Modulos por Vendedor"]
+    },
+    {
+        "display_name": "Parcela",
+        "route": "/parcela",
+        "icon": "bx bxs-pie-chart-alt-2",
+        "options":["Parcelas"]
+    }
+
+]

@@ -1,0 +1,55 @@
+.card-diario {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.card-diario__icon {
+    width: 20px;
+    height: 50%;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.card-diario__info {
+    flex-grow: 1;
+    text-align: center;
+    z-index: 1;
+    text-transform: capitalize;
+}
+
+.card-diario__info > h5 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.card-diario::before {
+    content: "";
+    width: 50%;
+    padding-top: 50%;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        to top right,
+        var(--main-color),
+        var(--second-color)
+    );
+    position: absolute;
+    left: -50%;
+    top: 0;
+    transform: scale(0);
+}
+
+.card-diario:hover {
+    color: var(--txt-white);
+}
